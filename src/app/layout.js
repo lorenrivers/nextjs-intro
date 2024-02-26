@@ -20,6 +20,7 @@ export default function RootLayout({ children }) {
             <Link href="/about">About</Link>
             <Link href="/another-cool-page">Another Cool Page</Link>
             <Link href="/another-cool-page/1">Dynamic Route Link</Link>
+            <Link href="/posts">Posts</Link>
           </nav>
         </header>
         {children}
