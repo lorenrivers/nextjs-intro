@@ -7,7 +7,7 @@ export default async function Page({ params }) {
 
   return (
     <div>
-      <p>You're in the dynamic route ({params.id}) now</p>
+      <p>You&apos;re in the dynamic route ({params.id}) now</p>
       <h2>Post {post.id}</h2>
       <h3>{post.title}</h3>
       <p>{post.body}</p>

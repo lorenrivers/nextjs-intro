@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <header>
-          <h1>Look at me, I'm on every page 😎</h1>
+          <h1>Look at me, I&apos;m on every page 😎</h1>
           <nav>
             <Link href="/">Home</Link>
             <Link href="/about">About</Link>
