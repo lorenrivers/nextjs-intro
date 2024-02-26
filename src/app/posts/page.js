@@ -9,6 +9,10 @@ export default async function PostsPage({ searchParams }) {
     posts.reverse();
   }
 
+  //   if (searchParams.user) {
+  //     posts = posts.filter((post) => post.userId == searchParams.user);
+  //   }
+
   return (
     <div>
       <h1>Posts about this awesome website 😆</h1>
